@@ -12,6 +12,7 @@ from problems.Problem2 import Problem2
 from problems.Problem3 import Problem3
 from problems.Problem4 import Problem4
 from problems.Problem5 import Problem5
+from problems.Problem6 import Problem6
 
 if __name__ == '__main__':
     print("Main method of RunProblems")
@@ -28,5 +29,8 @@ if __name__ == '__main__':
     prob4 = Problem4()
     prob4.run()
     
-    prob5 = Problem5()
-    prob5.run()
+#    prob5 = Problem5()
+#    prob5.run()
+
+    prob6 = Problem6()
+    prob6.run()
